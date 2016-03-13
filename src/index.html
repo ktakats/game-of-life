@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<head>
+  <meta charset="utf-8">
+  <title>Game of Life</title>
+  <link rel='stylesheet' type='text/css' href='app/gameoflife.css'>
+</head>
+<html>
+<body>
+<h1>Game of Life</h1>
+
+<div class="header">
+  <button class="btn" id="start">Start</button>
+  <button class="btn" id="pause">Pause</button>
+  <button class="btn" id="clear">Clear</button>
+  <div class="gen">Generation: <span id="gen"></span></div>
+</div>
+
+<div class="container" id="container"></div>
+
+<div class="footer">
+  <div id="block" class="row-fluid"><p>Size: </p>
+    <button class="size btn" id="small">Small</button>
+    <button class="size btn pushed" id="normal">Medium</button>
+    <button class="size btn" id="large">Large</button>
+  </div><br />
+
+  <div id="block" class="row-fluid">
+    <p>Speed: </p>
+    <button class="speed btn" id="slow">Slow</button>
+    <button class="speed btn pushed" id="medium">Medium</button>
+    <button class="speed btn" id="fast">Fast</button>
+  </div>
+</div>
+
+<div class="bottom"><p>created by ktakats for a FreeCodeCamp challenge</p></div>
+
+<script src='public/bundle.js' type='text/javascript'></script>
+<script src = "scripts/jquery-1.11.3.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+  text-align: center;
+  background: #E5FFCC;
+  padding: 10px 0px 10px 0px;
+  color: #E0E0E0;
+  font-family: Raleway; }
+
+h1 {
+  padding: 0px 0px 20px 0px;
+  font-size: 36px;
+  color: grey; }
+
+.header {
+  padding: 15px 10px 5px 10px;
+  width: 300px;
+  margin: auto;
+  border-radius: 5px;
+  background: grey;
+  box-shadow: 0px 16px 30px 0px #200; }
+
+.gen {
+  margin: 7px auto; }
+
+.container {
+  width: 650px;
+  height: 650px;
+  border-radius: 15px;
+  margin: 0px auto;
+  padding: 15px;
+  background: grey;
+  box-shadow: 0px 16px 30px 0px #200; }
+
+.footer {
+  width: 340px;
+  height: 100px;
+  margin: auto;
+  background: grey;
+  border-radius: 10px;
+  box-shadow: 0px 16px 30px 0px #200; }
+
+#block {
+  padding: 5px;
+  background: grey; }
+
+#block p {
+  float: left;
+  margin: 5px auto auto 15px; }
+
+#block .btn {
+  float: right;
+  margin: 5px 2px auto; }
+
+.btn {
+  background: #606060;
+  border: 2px solid #E0E0E0;
+  color: #E0E0E0;
+  width: 75px; }
+
+.btn.pushed {
+  background: #009900; }
+
+.cell {
+  font-size: 9px;
+  width: 11px;
+  height: 11px;
+  border: 1px solid grey;
+  margin: 0px;
+  float: left;
+  border-radius: none;
+  background-color: black; }
+
+.alive {
+  background-color: #66FF66; }
+
+.old {
+  background-color: #009900; }
+
+.dead {
+  background-color: black; }
+
+.bottom {
+  float: bottom;
+  color: grey;
+  margin-top: 50px; }
+
+/*# sourceMappingURL=gameoflife.css.map */
